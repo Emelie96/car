@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- displays site properly based on user's device -->
 
     <link
@@ -16,58 +20,67 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <!--
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"); 
+      </style>
+      -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
     </style>
 
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
   <body>
-    <div class="main">
-      <div class="box-1">
-        <p class="do">Join our community</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 box-1">
+          <p class="do">Join our community</p>
 
-        <p class="re">30-day, hassle-free money back guarantee</p>
+          <p class="re">30-day, hassle-free money back guarantee</p>
 
-        <p class="me">
-          Gain access to our full library of tutorials along with expert code
-          reviews.
-          <br />
-          Perfect for any developers who are serious about honing their skills.
-        </p>
+          <p class="me">
+            Gain access to our full library of tutorials along with expert code
+            reviews.
+            <br />
+            Perfect for any developers who are serious about honing their
+            skills.
+          </p>
+        </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="box-2">
-        <p class="fa">Monthly Subscription</p>
+      <div class="row">
+        <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6 box-2">
+          <p class="fa">Monthly Subscription</p>
 
-        <p class="so"><b>$29</b> &nbsp; <small>per month</small></p>
+          <p class="so"><b>$29</b> &nbsp; <small>per month</small></p>
 
-        <p class="la">Full access for less than &dollar;1 a day</p>
-
-        <div class="button">
-          <input type="submit" value="Sign Up" />
+          <p class="la">Full access for less than &dollar;1 a day</p>
+          <div class="but">
+            <button class="btn btn-block button">Sign Up</button>
+          </div>
         </div>
-      </div>
 
-      <div class="box-3">
-        <h5 class="ti">Why Us</h5>
-        <span>
-          Tutorials by industry experts
-          <br />
-          Peer and expert code review
-          <br />
-          Coding exercises
-          <br />
-          Access to out Github repos
-          <br />
-          Community forum
-          <br />
-          Flashcard decks
-          <br />
-          New videos every week
-        </span>
+        <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6 box-3">
+          <h5 class="ti">Why Us</h5>
+          <span>
+            Tutorials by industry experts
+            <br />
+            Peer and expert code review
+            <br />
+            Coding exercises
+            <br />
+            Access to out Github repos
+            <br />
+            Community forum
+            <br />
+            Flashcard decks
+            <br />
+            New videos every week
+          </span>
+        </div>
       </div>
     </div>
     <br />

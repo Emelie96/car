@@ -4,21 +4,8 @@
 
 body {
   background-color: #f0f0f0;
-  font-family: "Work Sans", sans-serif;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  padding-top: 60px;
-}
-
-.box-1 {
-  background-color: rgb(255, 255, 255);
-  width: 50vw;
-  height: 40vh;
-  padding: 50px 0px 20px 50px;
-  border-radius: 8px 8px 0px 0px;
+  /*font-family: "Work Sans", sans-serif;*/
+  font-family: "Karla", sans-serif;
 }
 
 .container {
@@ -26,64 +13,73 @@ body {
   justify-content: center;
 }
 
+.row {
+  width: 720px;
+  min-width: 375px;
+}
+
+.box-1 {
+  background-color: rgb(255, 255, 255);
+  padding: 50px 0px 20px 50px;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 100px;
+}
+
 .box-2 {
   background-color: #2bb3b1;
-  width: 25vw;
-  height: 40vh;
   border-radius: 0px 0px 0px 8px;
   padding: 40px 40px 20px 50px;
 }
 
 .box-3 {
   background-color: #4abebd;
-  width: 25vw;
-  height: 40vh;
   border-radius: 0px 0px 8px 0px;
   padding: 40px 40px 20px 50px;
   color: white;
 }
 
-input {
-  background-color: #bfdf32;
-  color: white;
-  width: 18vw;
-  height: 8vh;
-  border-radius: 5px;
-  border-style: none;
-  font-size: small;
-  font-weight: bold;
-  letter-spacing: 1px;
+.but {
+  padding-top: 30px;
 }
 
 .button {
-  padding-top: 15px;
+  background-color: #bfdf32;
+  color: white;
+  width: 100%;
+  height: 7vh;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .do {
   color: #1fa09e;
   line-height: 2em;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 16px;
   text-shadow: 1px 1px 3px #8bf3f5; /* this is to create a blur text shadow*/
   letter-spacing: 1px;
 }
 
 .re {
   color: #bbd052;
-  font-size: medium;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   text-shadow: 1px 1px 2px #d8fa31;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .me {
   color: #b5b8c0;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .fa {
   color: rgb(255, 255, 255);
-  font-size: large;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
@@ -98,6 +94,7 @@ span {
 b {
   font-size: 30px;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 small {
@@ -108,13 +105,14 @@ small {
 
 .la {
   color: white;
-  font-size: 15px;
-  line-height: 0.5em;
+  font-size: 16px;
+  line-height: 0.1em;
+  font-weight: 400;
 }
 
 .ti {
-  font-size: large;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 
